@@ -81,8 +81,8 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://img.youtube.com/vi/-oz_u1iMgf8/maxresdefault.jpg' },
-                            caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/-oz_u1iMgf8`
+                            image: { url: 'https://i.ibb.co/XxvZR6fm/20251001-140257.jpg' },
+                            caption: `𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗗𝗮𝘁𝗮 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗕𝘆 𝗗𝗮𝗿𝗸𝘀𝘁𝗮𝗿 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗪𝗲𝗯`
                         });
                         console.log("🎬 Video guide sent successfully");
 
